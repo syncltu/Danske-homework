@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{026A1C72-8131-4FE0-A526-CFDF3983DFD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7184AC4C-6031-4F7B-A772-109E932B8659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AAD77EA3-312A-457B-8546-2E1049692808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0574D679-B381-4415-9064-EA0EF873F1D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Danske.Homework.Application", "src\Core\Danske.Homework.Application\Danske.Homework.Application.csproj", "{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Danske.Homework.Api", "Danske.Homework.Api\Danske.Homework.Api.csproj", "{77C478F0-5101-4071-842D-DF5633F6B022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Danske.Homework.Application.Tests", "Danske.Homework.Application.Tests\Danske.Homework.Application.Tests.csproj", "{577E01F8-6D9B-4151-A56F-F41B1DACF7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C478F0-5101-4071-842D-DF5633F6B022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C478F0-5101-4071-842D-DF5633F6B022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C478F0-5101-4071-842D-DF5633F6B022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C478F0-5101-4071-842D-DF5633F6B022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577E01F8-6D9B-4151-A56F-F41B1DACF7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577E01F8-6D9B-4151-A56F-F41B1DACF7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577E01F8-6D9B-4151-A56F-F41B1DACF7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577E01F8-6D9B-4151-A56F-F41B1DACF7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7184AC4C-6031-4F7B-A772-109E932B8659} = {026A1C72-8131-4FE0-A526-CFDF3983DFD9}
+		{AAD77EA3-312A-457B-8546-2E1049692808} = {026A1C72-8131-4FE0-A526-CFDF3983DFD9}
+		{35E2DCF1-79BE-4A1B-BC19-2A3C6F26DF36} = {AAD77EA3-312A-457B-8546-2E1049692808}
+		{77C478F0-5101-4071-842D-DF5633F6B022} = {7184AC4C-6031-4F7B-A772-109E932B8659}
+		{577E01F8-6D9B-4151-A56F-F41B1DACF7E1} = {0574D679-B381-4415-9064-EA0EF873F1D5}
+	EndGlobalSection
+EndGlobal
